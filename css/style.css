@@ -210,19 +210,24 @@ body {
 }
 .article-entry h1,
 .widget h1 {
-  font-size: 2em;
+  font-size: 1.3em;
+  border-bottom: solid 3px #808080;
+  padding: 0.5em 0.1em;
 }
 .article-entry h2,
 .widget h2 {
-  font-size: 1.5em;
+  font-size: 1.2em;
+  padding: 0.25em 0.5em;
+  border-left: solid 5px #7db4e6;
+  background: rgba(125,180,230,0.1);
 }
 .article-entry h3,
 .widget h3 {
-  font-size: 1.3em;
+  font-size: 1.1em;
 }
 .article-entry h4,
 .widget h4 {
-  font-size: 1.2em;
+  font-size: 1.1em;
 }
 .article-entry h5,
 .widget h5 {
@@ -624,10 +629,10 @@ a.article-title:hover {
   padding: 10px 0;
 }
 .article-entry blockquote {
-  font-family: Georgia, "Times New Roman", serif;
-  font-size: 1.4em;
+  font-family: font-family;
+  font-size: 1em;
+  background: rgba(0,0,0,0.05);
   margin: 1.6em 20px;
-  text-align: center;
 }
 .article-entry blockquote footer {
   font-size: 14px;
