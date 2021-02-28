@@ -194,11 +194,10 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 2px;
-  color: #999;
+  color: #000;
   margin-bottom: 1em;
   margin-left: 5px;
   line-height: 1em;
-  text-shadow: 0 1px #fff;
   font-weight: bold;
 }
 .article-inner,
@@ -206,8 +205,8 @@ body {
   background: #fff;
   -webkit-box-shadow: 1px 2px 3px #ddd;
   box-shadow: 1px 2px 3px #ddd;
-  border: 1px solid #ddd;
-  border-radius: 3px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
 }
 .article-entry h1,
 .widget h1 {
@@ -308,7 +307,7 @@ body {
   font-weight: bold;
 }
 #header {
-  height: 300px;
+  height: 220px;
   position: relative;
   border-bottom: 1px solid #ddd;
 }
@@ -367,7 +366,7 @@ body {
   text-decoration: none;
   color: #fff;
   font-weight: 300;
-  text-shadow: 0 1px 4px rgba(0,0,0,0.3);
+  text-shadow: 0 5px 5px #000;
 }
 #logo {
   font-size: 40px;
@@ -375,6 +374,7 @@ body {
   letter-spacing: 2px;
 }
 #subtitle {
+  text-shadow: 0 5px 5px #000;
   font-size: 16px;
   line-height: 16px;
   letter-spacing: 1px;
@@ -388,9 +388,10 @@ body {
 }
 .nav-icon,
 .main-nav-link {
+  text-shadow: 0 5px 5px #000;
+  font-size: 16px;
   float: left;
   color: #fff;
-  opacity: 0.6;
   text-decoration: none;
   text-shadow: 0 1px rgba(0,0,0,0.2);
   -webkit-transition: opacity 0.2s;
@@ -407,9 +408,9 @@ body {
 .nav-icon {
   font-family: FontAwesome;
   text-align: center;
-  font-size: 14px;
-  width: 14px;
-  height: 14px;
+  font-size: 16px;
+  width: 16px;
+  height: 16px;
   padding: 20px 15px;
   position: relative;
   cursor: pointer;
@@ -541,8 +542,8 @@ body {
   text-decoration: none;
   font-size: 2em;
   font-weight: bold;
-  color: #555;
-  line-height: 1.1em;
+  color: #258fb8;
+  line-height: 1.3em;
   -webkit-transition: color 0.2s;
   -moz-transition: color 0.2s;
   -ms-transition: color 0.2s;
@@ -582,8 +583,8 @@ a.article-title:hover {
 .article-entry h4,
 .article-entry h5,
 .article-entry h6 {
-  line-height: 1.1em;
-  margin: 1.1em 0;
+  line-height: 1.3em;
+  margin: 1.3em 0;
 }
 .article-entry a {
   color: #258fb8;
@@ -691,7 +692,7 @@ a.article-title:hover {
   text-shadow: 0 1px #1e7293;
 }
 .article-footer {
-  font-size: 0.85em;
+  font-size: 1.1em;
   line-height: 1.6em;
   border-top: 1px solid #ddd;
   padding-top: 1.6em;
@@ -710,7 +711,7 @@ a.article-title:hover {
   text-decoration: none;
 }
 .article-footer a:hover {
-  color: #555;
+  color: #258fb8;
 }
 .article-tag-list-item {
   float: left;
@@ -1330,7 +1331,7 @@ pre .javascript .function {
 .widget {
   line-height: 1.6em;
   word-wrap: break-word;
-  font-size: 0.9em;
+  font-size: 1.1em;
 }
 .widget ul,
 .widget ol {
