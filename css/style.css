@@ -128,9 +128,9 @@ body {
   -webkit-text-size-adjust: 100%;
 }
 .outer {
-  max-width: 925px;
+  max-width: 980px;
   margin: 0 auto;
-  padding: 0 25px;
+  padding: 0 20px;
 }
 .outer:before,
 .outer:after {
@@ -143,8 +143,8 @@ body {
 .inner {
   display: inline;
   float: left;
-  width: 97.22222222222221%;
-  margin: 0 1.388888888888889%;
+  width: 97.91666666666666%;
+  margin: 0 1.041666666666667%;
 }
 .left,
 .alignleft {
@@ -183,8 +183,8 @@ body {
   #main {
     display: inline;
     float: left;
-    width: 72.22222222222221%;
-    margin: 0 1.388888888888889%;
+    width: 72.91666666666666%;
+    margin: 0 1.041666666666667%;
   }
 }
 .article-date,
@@ -511,7 +511,7 @@ body {
   color: #777;
 }
 .article {
-  margin: 50px 0;
+  margin: 60px 0;
 }
 .article-inner {
   overflow: hidden;
@@ -763,7 +763,7 @@ a.article-title:hover {
 }
 @media screen and (min-width: 768px) {
   #article-nav {
-    margin: 50px 0;
+    margin: 60px 0;
   }
   #article-nav:before {
     width: 8px;
@@ -787,7 +787,7 @@ a.article-title:hover {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  margin-top: 50px;
+  margin-top: 60px;
   text-align: center;
   display: block;
 }
@@ -961,13 +961,13 @@ a.article-title:hover {
   padding: 20px;
   border: 1px solid #ddd;
   border-radius: 3px;
-  margin: 50px 0;
+  margin: 60px 0;
 }
 #comments a {
   color: #258fb8;
 }
 .archives-wrap {
-  margin: 50px 0;
+  margin: 60px 0;
 }
 .archives:before,
 .archives:after {
@@ -1034,7 +1034,7 @@ a.article-title:hover {
   display: block;
 }
 #page-nav {
-  margin: 50px auto;
+  margin: 60px auto;
   background: #fff;
   -webkit-box-shadow: 1px 2px 3px #ddd;
   box-shadow: 1px 2px 3px #ddd;
@@ -1304,12 +1304,12 @@ pre .javascript .function {
   #sidebar {
     display: inline;
     float: left;
-    width: 22.22222222222222%;
-    margin: 0 1.388888888888889%;
+    width: 22.916666666666664%;
+    margin: 0 1.041666666666667%;
   }
 }
 .widget-wrap {
-  margin: 50px 0;
+  margin: 60px 0;
 }
 .widget {
   color: #777;
@@ -1342,7 +1342,7 @@ pre .javascript .function {
 .widget {
   line-height: 2em;
   word-wrap: break-word;
-  font-size: 1.1em;
+  font-size: 1em;
 }
 .widget ul,
 .widget ol {
@@ -1366,9 +1366,9 @@ pre .javascript .function {
 .category-list-count,
 .tag-list-count,
 .archive-list-count {
-  padding-left: 5px;
+  padding-left: 3px;
   color: #999;
-  font-size: 0.85em;
+  font-size: 1em;
 }
 .category-list-count:before,
 .tag-list-count:before,
