@@ -1,0 +1,60 @@
+baseurl = "https://lesnounours.github.io/blog/"
+title = "フランスと研究とくまちゃんと"
+defaultContentLanguage = "ja"
+paginate = "7"
+theme = "Mainroad-master"
+hasCJKLanguage = true
+summaryLength = 50
+
+[Author]
+  name = "本サイト"
+  bio = "本サイトは体験談に基づいています。常に最新の情報を確認するようにお願いいたします。"
+
+[Params.logo]
+  subtitle = "フランスの暮らしや研究者ビザなどの体験談を残しています"
+  image = "images/default.jpg"
+
+[Params]
+  description = "Les nounours in Paris description"
+  opengraph = true
+  twitter_cards = false
+  readmore = true
+  authorbox = true
+  pager = true
+  post_meta = ["date", "categories"]
+  copyright = "Les nounours"
+  dateformat = "2006年01月02日"
+  highlightColor = "#1e90ff"
+  customCSS = ["css/notosansjp.css", "css/custom.css"]
+
+[Params.style.vars]
+  fontFamilyPrimary = "Helvetica, sans-serif, 'Open Sans', Arial"
+  fontFamilySecondary = "Menlo, SFMono-Regular, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace"
+
+
+[Params.sidebar]
+  home = "right"
+  list = "right"
+  single = "right"
+  widgets = ["taglist", "archive", "recent", "categories", "social"]
+
+[Params.widgets]
+  recent_num = 5
+  tags_counter = true
+  archives_counter = true
+
+[taxonomies]
+  tag = "tags"
+  category = "categories"
+  archive = "archives"
+
+
+[[Menus.main]]
+  Name = "ホーム"
+  URL = "/"
+[[Menus.main]]
+  Name = "自己紹介"
+  URL = "/posts/2020_09_01_intro"
+[[Menus.footer]]
+  Name = "プライバシーポリシー"
+  URL = "/posts/2021_03_04_BnF"
