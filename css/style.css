@@ -45,7 +45,7 @@ html {
 body {
 	margin: 0;
 	font-family: Helvetica, sans-serif, 'Open Sans', Arial;
-	font-size: 1.05rem;
+	font-size: 0.95rem;
 	line-height: 1.8;
 	word-wrap: break-word;
 	background: #f7f7f7;
@@ -298,10 +298,11 @@ kbd {
 
 blockquote {
     position: relative;
-    padding: 15px 15px 8px 15px;
+    padding: 10px 15px 8px 15px;
     background: #efefef;
     color: #555;
-    margin: 1em auto;
+    margin-bottom: 1.5em;
+    margin-top: -1.5em;
 }
 
 blockquote p:last-child {
@@ -398,6 +399,12 @@ select {
 
 .logo__img {
 	max-height: 256px;
+}
+
+.main__img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .logo__text {
