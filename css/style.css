@@ -45,7 +45,7 @@ html {
 body {
 	margin: 0;
 	font-family: Helvetica, sans-serif, 'Open Sans', Arial;
-	font-size: 0.95rem;
+	font-size: 1.0rem;
 	line-height: 1.8;
 	word-wrap: break-word;
 	background: #f7f7f7;
@@ -127,14 +127,18 @@ textarea {
 .btn {
 	padding: 6px 12px;
 	font-weight: 700;
-	color: #fff;
 	white-space: pre-line;
+	color: #fff;
+	background: #708090;
+/*
+	color: #fff;
 	background: #2a2a2a;
+*/
 }
 
 .btn:hover {
 	color: #fff;
-	background: #1e90ff;
+	background: #8fbc8f;
 }
 
 /* Animation */
@@ -166,7 +170,7 @@ h2 {
  	padding: 6px 0 5px 15px;
 	margin: 0 0 1.3rem;
 	line-height: 1.6;
-	border-left: 5px solid #1e90ff;
+	border-left: 5px solid #8fbc8f;
   background-color: rgba(125,180,230,0.15);
 }
 
@@ -197,7 +201,7 @@ a {
 }
 
 a:hover {
-	color: #1e90ff;
+	color: #8fbc8f;
 }
 
 hr {
@@ -444,14 +448,14 @@ select {
 	font-size: .875rem;
 	font-weight: 700;
 	line-height: 1;
-	color: #1e90ff;
+	color: #8fbc8f;
 	border-top: 1px solid #ebebeb;
 }
 
 .divider {
 	height: 5px;
 	margin: 0;
-	background: #1e90ff;
+	background: #8fbc8f;
 	border: 0;
 }
 
@@ -488,7 +492,7 @@ select {
 }
 
 :focus > .menu__btn-title {
-	box-shadow: inset 0 0 1px 3px #1e90ff;
+	box-shadow: inset 0 0 1px 3px #8fbc8f;
 }
 
 button:not(:-moz-focusring):focus > .menu__btn-title {
@@ -501,7 +505,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 }
 
 .js .menu__btn--active {
-	color: #1e90ff;
+	color: #8fbc8f;
 }
 
 .menu__list {
@@ -510,7 +514,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 }
 
 .menu__item:hover {
-	background: #1e90ff;
+	background: #8fbc8f;
 }
 
 .menu__item:first-child {
@@ -518,7 +522,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 }
 
 .menu__item--active {
-	background: #1e90ff;
+	background: #8fbc8f;
 }
 
 .menu__link {
@@ -559,7 +563,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 
 @media screen and (min-width: 767px) {
 	.menu {
-		border-bottom: 5px solid #1e90ff;
+		border-bottom: 5px solid #8fbc8f;
 	}
 
 	.menu__btn {
@@ -613,7 +617,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 }
 
 .meta a:hover {
-	color: #1e90ff;
+	color: #8fbc8f;
 }
 
 .meta__item {
@@ -651,7 +655,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 .post__lead {
 	margin-top: 0.0rem;
 	margin-bottom: 0;
-	font-size: 0.9rem;
+	font-size: 0.95rem;
 	font-style: italic;
   color: #2e8b57;
   padding-left: 0px;
@@ -675,13 +679,13 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 .warning a,
 .authorbox__description a {
 	font-weight: 700;
-	color: #1e90ff;
+	color: #8fbc8f;
 }
 
 .content a:hover,
 .warning a:hover,
 .authorbox__description a:hover {
-	color: #1e90ff;
+	color: #8fbc8f;
 	text-decoration: underline;
 }
 
@@ -765,7 +769,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 }
 
 .tags__item:hover {
-	background: #1e90ff;
+	background: #8fbc8f;
 }
 
 .tags__link,
@@ -780,7 +784,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 	height: 32px;
 	padding: 8px;
 	margin-right: 6px;
-	background: #1e90ff;
+	background: #8fbc8f;
 	fill: #fff;
 }
 
@@ -838,7 +842,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 .toc__menu a {
 	display: block;
 	padding: 5px 10px;
-	color: #1e90ff;
+	color: #8fbc8f;
 	border-bottom: 1px solid #ebebeb;
 }
 
@@ -933,7 +937,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 .pagination__item:hover,
 .pagination__item--current {
 	color: #fff;
-	background: #1e90ff;
+	background: #8fbc8f;
 }
 
 /* Pager (prev/next links) navigation */
@@ -1055,7 +1059,7 @@ input[type=reset] {
 
 input[type=submit]:hover,
 input[type=reset]:hover {
-	background: #1e90ff;
+	background: #8fbc8f;
 }
 
 textarea {
@@ -1084,7 +1088,7 @@ textarea {
 	font-size: 16px;
 	font-size: 1rem;
 	text-transform: uppercase;
-	border-bottom: 3px solid #1e90ff;
+	border-bottom: 3px solid #8fbc8f;
   margin-bottom: 0.5em;
   margin-top: 0em;
 }
@@ -1165,7 +1169,7 @@ textarea {
 
 .widget-languages__link:hover .widget-languages__link-btn {
 	color: #fff;
-	background: #1e90ff;
+	background: #8fbc8f;
 }
 
 .widget-languages__link-btn {
