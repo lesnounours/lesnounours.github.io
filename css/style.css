@@ -214,6 +214,7 @@ p {
 	margin: 0 0 1em;
   padding-left: 20px;
   padding-right: 20px;
+  margin-bottom: 1.5em;
 }
 
 b,
@@ -678,8 +679,8 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 .content a,
 .warning a,
 .authorbox__description a {
-	font-weight: 700;
-	color: #8fbc8f;
+	font-weight: 600;
+	color: #3366FF;
 }
 
 .content a:hover,
