@@ -125,7 +125,7 @@ textarea {
 
 /* Button */
 .btn {
-	padding: 6px 12px;
+	padding: 4px 10px;
 	font-weight: 700;
 	white-space: pre-line;
 	color: #fff;
@@ -1096,7 +1096,7 @@ textarea {
 
 .widget__item {
 	display: block;
-	padding: 5px 0;
+	padding: 2px 0;
 	border-bottom: 1px dotted #ebebeb;
 }
 
@@ -1159,7 +1159,7 @@ textarea {
 .widget-taglist__link {
 	display: inline-block;
 	margin: 0 4px 8px 0;
-	font-size: 12px;
+	font-size: 13px;
 	text-transform: uppercase;
 }
 
