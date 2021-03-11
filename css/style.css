@@ -895,13 +895,12 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 }
 
 .list__title {
-	font-size: 20px;
-	font-size: 1.5rem;
+	font-size: 1.4rem;
   border-left: none;
   border-bottom: none;
 
   padding: 0px 0 0px 0px;
-	margin: 0 0 1.1rem;
+	margin: 0 0 0.5rem;
 	line-height: 1;
   background-color: white;
 }
@@ -917,12 +916,12 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 
 .list__thumbnail img {
 	width: 100%;
-	max-width: 235px;
+	max-width: 200px;
 }
 
 .list__footer-readmore {
 	float: right;
-	margin-top: 10px;
+	margin-top: 0.0px;
 }
 
 /* Pagination */
