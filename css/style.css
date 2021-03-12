@@ -1088,12 +1088,11 @@ textarea {
 .widget__title {
 	position: relative;
 	padding-bottom: 5px;
-	font-size: 16px;
-	font-size: 1rem;
+	font-size: 1.1rem;
 	text-transform: uppercase;
 	border-bottom: 3px solid #8fbc8f;
-  margin-bottom: 0.5em;
-  margin-top: 0em;
+  	margin-bottom: 0.2em;
+  	margin-top: 0em;
 }
 
 .widget__item {
@@ -1344,4 +1343,16 @@ textarea {
 		font-size: 11px;
 		font-size: .6875rem;
 	}
+}
+
+.side-categories {
+  list-style-type: none;
+  line-height: 2;
+  margin: 0;
+  padding: 0;
+}
+
+.children li {
+  margin-left: 30px;
+  line-height: 1.6;
 }
