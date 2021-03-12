@@ -1249,6 +1249,15 @@ textarea {
 	.wrapper {
 		display: block;
 	}
+  .logo__img{
+    width: 90px;
+  }
+  .logo__title{
+    font-size: 1.5em;
+  }
+  .logo__tagline{
+    font-size: 0.7em;
+  }
 
 	.sidebar {
 		float: none;
