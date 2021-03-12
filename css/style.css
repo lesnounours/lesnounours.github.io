@@ -916,7 +916,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 
 .list__thumbnail img {
 	width: 100%;
-	max-width: 200px;
+	max-width: 180px;
 }
 
 .list__footer-readmore {
@@ -1282,6 +1282,19 @@ textarea {
 		width: 88%;
 	}
 
+  .logo__img{
+    width: 50px;
+  }
+  .logo__title{
+    font-size: 1em;
+    width: 150px;
+  }
+  .logo__tagline{
+    font-size: 0.7em;
+    width: 150px;
+  }
+
+  }
 	.meta__item {
 		display: block;
 		margin-left: 0;
