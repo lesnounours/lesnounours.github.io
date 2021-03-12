@@ -1283,15 +1283,15 @@ textarea {
 	}
 
   .logo__img{
-    width: 50px;
+    width: 70px;
   }
   .logo__title{
-    font-size: 1em;
-    width: 150px;
+    font-size: 1.3em;
+    width: 170px;
   }
   .logo__tagline{
-    font-size: 0.7em;
-    width: 150px;
+    font-size: 0.8em;
+    width: 170px;
   }
 
   }
