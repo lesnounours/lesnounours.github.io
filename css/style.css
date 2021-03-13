@@ -1352,7 +1352,7 @@ textarea {
 	}
 
 	.list__thumbnail {
-		max-width: 250px;
+		max-width: 80%;
 	}
 
 	.list__title {
