@@ -1371,6 +1371,10 @@ textarea {
 		font-size: .6875rem;
 	}
 
+h1 {
+	font-size: 1.3rem;
+}
+
  h2 {
 	font-size: 1.15rem;
  	padding: 6px 0 5px 15px;
@@ -1387,8 +1391,8 @@ textarea {
 }
 
 h4 {
-	font-size: 1.1rem;
-  margin-top: 3em;
+	font-size: 1.05rem;
+  margin-top: 1em;
 }
 
 }
