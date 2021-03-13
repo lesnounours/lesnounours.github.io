@@ -1352,16 +1352,14 @@ textarea {
 	}
 
 	.list__thumbnail {
-		max-width: 80%;
+		max-width: 30%;
 	}
 
 	.list__title {
-		font-size: 16px;
 		font-size: 1.2rem;
 	}
 
 	.list__lead {
-		font-size: 14px;
   	font-size: 0.85rem;
     font-style: italic;
     color: #2e8b57;
