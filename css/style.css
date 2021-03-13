@@ -1370,6 +1370,27 @@ textarea {
 		font-size: 11px;
 		font-size: .6875rem;
 	}
+
+ h2 {
+	font-size: 1.15rem;
+ 	padding: 6px 0 5px 15px;
+	margin: 0 0 1rem;
+	line-height: 1.1;
+	border-left: 5px solid #8fbc8f;
+  background-color: rgba(125,180,230,0.15);
+}
+
+ h3 {
+	font-size: 1.1rem;
+  border-bottom: solid 5px rgba(125,180,230,1);
+  margin-top: 1em;
+}
+
+h4 {
+	font-size: 1.1rem;
+  margin-top: 3em;
+}
+
 }
 
 
