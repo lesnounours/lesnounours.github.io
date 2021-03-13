@@ -45,7 +45,7 @@ html {
 body {
 	margin: 0;
 	font-family: Helvetica, sans-serif, 'Open Sans', Arial;
-	font-size: 1.0rem;
+	font-size: 0.95rem;
 	line-height: 1.8;
 	word-wrap: break-word;
 	background: #f7f7f7;
@@ -657,8 +657,8 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 }
 
 .post__lead {
-	margin-top: 0.0rem;
-	margin-bottom: 0;
+	margin-top: -0.1rem;
+	margin-bottom: -0.2rem;
 	font-size: 0.95rem;
 	font-style: italic;
   color: #2e8b57;
@@ -858,7 +858,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 .authorbox {
 	padding: 25px 0;
 	margin-bottom: 25px;
-	line-height: 1.5;
+	line-height: 1.0;
 	border-top: 1px solid #ebebeb;
 	border-bottom: 1px solid #ebebeb;
 }
@@ -886,7 +886,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 	padding-bottom: 1.25rem;
 	margin-bottom: 20px;
 	margin-bottom: 1.25rem;
-	border-bottom: 1px solid #ebebeb;
+	border-bottom: 1px solid #cccccc;
 }
 
 .list__header {
@@ -947,9 +947,9 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 .pager {
 	-webkit-justify-content: space-between;
 	justify-content: space-between;
-	padding-top: 25px;
+	padding-top: 0px;
 	padding-bottom: 25px;
-	margin-bottom: 25px;
+	margin-bottom: 0px;
 	border-bottom: 1px solid #ebebeb;
 }
 
@@ -1079,6 +1079,13 @@ textarea {
 .widget {
 	margin-bottom: 25px;
 	overflow: hidden;
+}
+
+.widget ul {
+	list-style: none;
+}
+.widget ol {
+	list-style: none;
 }
 
 .widget:last-child {
@@ -1310,7 +1317,7 @@ textarea {
 	}
 
 	.authorbox {
-		text-align: center;
+		text-align: left;
 	}
 
 	.authorbox__avatar {
@@ -1345,7 +1352,7 @@ textarea {
 	}
 
 	.list__thumbnail {
-		max-width: 150px;
+		max-width: 250px;
 	}
 
 	.list__title {
@@ -1367,7 +1374,9 @@ textarea {
 	}
 }
 
-.side-categories {
+
+
+.side-categories ul {
   list-style-type: none;
   line-height: 2;
   margin: 0;
@@ -1375,6 +1384,6 @@ textarea {
 }
 
 .children li {
-  margin-left: 30px;
+  margin-left: 20px;
   line-height: 1.6;
 }
