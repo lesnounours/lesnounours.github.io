@@ -55,7 +55,7 @@ body {
 .container {
 	position: relative;
 	width: 100%;
-	max-width: 1050px;
+	max-width: 1080px;
 	margin: 0 auto;
 }
 
@@ -75,16 +75,16 @@ body {
 }
 
 .primary {
-	-webkit-flex: 1 0 70%;
-	flex: 1 0 70%;
+	-webkit-flex: 1 0 68%;
+	flex: 1 0 68%;
 	-webkit-order: 1;
 	order: 1;
 	min-width: 0;
 }
 
 .sidebar {
-	-webkit-flex: 1 0 22%;
-	flex: 1 0 22%;
+	-webkit-flex: 1 0 26%;
+	flex: 1 0 26%;
 	-webkit-order: 2;
 	order: 2;
 	min-width: 0;
@@ -130,10 +130,6 @@ textarea {
 	white-space: pre-line;
 	color: #fff;
 	background: #708090;
-/*
-	color: #fff;
-	background: #2a2a2a;
-*/
 }
 
 .btn:hover {
@@ -212,8 +208,8 @@ hr {
 
 p {
 	margin: 0 0 1em;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
   margin-bottom: 1.5em;
 }
 
@@ -231,7 +227,8 @@ em {
 
 ol,
 ul {
-	padding: 0;
+  padding-left: 20px;
+  padding-right: 20px;
 	margin: 0;
 }
 
@@ -1222,7 +1219,7 @@ textarea {
 	}
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
 	.container--outer {
 		width: 100%;
 		margin: 0 auto;
@@ -1298,26 +1295,25 @@ textarea {
 		width: 88%;
 	}
 
-  .logo__img{
+  .logo__img {
     width: 65px;
   }
-  .logo__title{
+  .logo__title {
     font-size: 1.3em;
     width: 160px;
   }
-  .logo__tagline{
+  .logo__tagline {
     font-size: 0.7em;
     width: 160px;
   }
 
-  }
 	.meta__item {
 		display: block;
 		margin-left: 0;
 	}
 
 	.authorbox {
-		text-align: left;
+		text-align: center;
 	}
 
 	.authorbox__avatar {
@@ -1331,7 +1327,7 @@ textarea {
 	}
 
 	.pager__item {
-		min-width: 100%;
+		max-width: 100%;
 		text-align: center;
 	}
 
