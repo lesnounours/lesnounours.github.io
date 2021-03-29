@@ -24,5 +24,14 @@
       <description>このサイトは静的サイトジェネレータhugoを利用して作成しました。 特にテンプレートはMainroad</description>
     </item>
     
+    <item>
+      <title>海外学振面接</title>
+      <link>https://lesnounours.github.io/posts/2021_02_28_gakushin/</link>
+      <pubDate>Thu, 24 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://lesnounours.github.io/posts/2021_02_28_gakushin/</guid>
+      <description>以前、海外学振の面接を経験しました。その体験をざっとまとめました。 時系列に沿って感想戦 会場は麹町の学</description>
+    </item>
+    
   </channel>
 </rss>
