@@ -75,16 +75,16 @@ body {
 }
 
 .primary {
-	-webkit-flex: 1 0 68%;
-	flex: 1 0 68%;
+	-webkit-flex: 1 0 70%;
+	flex: 1 0 70%;
 	-webkit-order: 1;
 	order: 1;
 	min-width: 0;
 }
 
 .sidebar {
-	-webkit-flex: 1 0 23%;
-	flex: 1 0 23%;
+	-webkit-flex: 1 0 17%;
+	flex: 1 0 17%;
 	-webkit-order: 2;
 	order: 2;
 	min-width: 0;
@@ -94,7 +94,7 @@ body {
 .sidebar--left {
 	-webkit-order: 0;
 	order: 0;
-	margin: 0 2.5% 0 0;
+	margin: 0 1.5% 0 0;
 }
 
 .clearfix {
@@ -392,6 +392,7 @@ select {
 }
 
 .logo {
+  text-align: center;
 	padding: 25px;
 }
 
