@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>研究 on フランスと研究とくまちゃんと</title>
+    <link>https://lesnounours.github.io/categories/%E7%A0%94%E7%A9%B6/</link>
+    <description>Recent content in 研究 on フランスと研究とくまちゃんと</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 25 Mar 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://lesnounours.github.io/categories/%E7%A0%94%E7%A9%B6/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Zoteroで論文管理</title>
+      <link>https://lesnounours.github.io/posts/2021_03_25_zotero/</link>
+      <pubDate>Thu, 25 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lesnounours.github.io/posts/2021_03_25_zotero/</guid>
+      <description>最近Mendeleyのモバイルアプリが終了するというニュースが話題になりました。 私は以前はMendeleyを利用していましたが、少しUIがも</description>
+    </item>
+    
+    <item>
+      <title>hugo mainroad改造</title>
+      <link>https://lesnounours.github.io/posts/2021_03_11_hugo_mainroad/</link>
+      <pubDate>Thu, 11 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lesnounours.github.io/posts/2021_03_11_hugo_mainroad/</guid>
+      <description>このサイトは静的サイトジェネレータhugoを利用して作成しました。 特にテンプレートはMainroadを利用させてもらっています。 ところが、M</description>
+    </item>
+    
+    <item>
+      <title>海外学振面接</title>
+      <link>https://lesnounours.github.io/posts/2021_02_28_gakushin/</link>
+      <pubDate>Thu, 24 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://lesnounours.github.io/posts/2021_02_28_gakushin/</guid>
+      <description>以前、海外学振の面接を経験しました。その体験をざっとまとめました。 時系列に沿って感想戦 会場は麹町の学振本部 前日に近所のホテルにチェックイン、</description>
+    </item>
+    
+  </channel>
+</rss>
