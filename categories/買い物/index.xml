@@ -33,5 +33,14 @@
       <description>ポイントカードはネットでつくる方が楽 お買い物に欠かせないポイントカード。 店員さんに尋ねてカウンターで作ってもらうこともありましたが、 ほとんどのカードはネットでつくった方が圧倒的に楽で便利でした。 現在使用中のアプリ or Apple Walletのポイントカード スーパー Carrefour 店頭で書類に記入して後日ポイントカードが配送さ</description>
     </item>
     
+    <item>
+      <title>フランスで日本の番組を見る</title>
+      <link>https://lesnounours.github.io/posts/2021_03_11_vpn/</link>
+      <pubDate>Thu, 11 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lesnounours.github.io/posts/2021_03_11_vpn/</guid>
+      <description>日本のテレビ番組やamazon primeなど海外からは日本限定のものは見ることができません。そのためVPNやDNS Proxyサービスなどを利用する必要があります。 VPNやDNS Proxyについては多くの解説サイトがあるので(また、きちんと理解できていないので)、詳しく説明はしませんが、設定自体は簡単</description>
+    </item>
+    
   </channel>
 </rss>
