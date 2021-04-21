@@ -123,6 +123,12 @@ textarea {
 	line-height: inherit;
 }
 
+select{
+	border :2px solid #ddd;
+	font-size :1em;
+  width:100%; 
+}
+
 /* Button */
 .btn {
 	padding: 4px 10px;
