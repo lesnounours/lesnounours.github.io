@@ -420,7 +420,7 @@ select {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 1em;
+  margin-bottom: 2em;
   margin-top: 1em;
 }
 
@@ -736,7 +736,7 @@ button:not(:-moz-focusring):focus > .menu__btn-title {
 .content ol {
 	margin: 0 0 20px 70px;
   margin-bottom: 2em;
-  margin-top: 2em;
+  margin-top: 1em;
 }
 
 .content ul ul,
