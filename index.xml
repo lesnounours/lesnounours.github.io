@@ -115,6 +115,15 @@
     </item>
     
     <item>
+      <title> Hacking hugo mainroad</title>
+      <link>https://lesnounours.github.io/posts/2021_03_11_hugo_mainroad_en/</link>
+      <pubDate>Thu, 11 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://lesnounours.github.io/posts/2021_03_11_hugo_mainroad_en/</guid>
+      <description>Since many visiter outside Japan come Japanese counterpart of this hugo mainroad page, I (crudely) translated it in English here. I&amp;rsquo;m happy if this article will help you. This blog is generated via hugo, which is one of the Static Site Generator (SSG). In particular, I exploited the Mainroad template of hugo. However, it seems that the structure of Mainroad is a little bit different from the other hugo&amp;rsquo;s template. Here, I would like to summarize how it differs from the others. Google analytics In this blog, we analyze the accesses to this blog through the Google analysis. In the standard template of hugo, all we have to do is modifying config.toml as googleAnalytics = &amp;quot;UA-XXXXXXXXX-X&amp;quot; However, the Mainroad does not work even in this modification. Alternatively, I copied the</description>
+    </item>
+    
+    <item>
       <title>hugo mainroadを改造する</title>
       <link>https://lesnounours.github.io/posts/2021_03_11_hugo_mainroad/</link>
       <pubDate>Thu, 11 Mar 2021 00:00:00 +0000</pubDate>
